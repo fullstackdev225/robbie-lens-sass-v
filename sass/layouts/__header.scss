@@ -1,0 +1,42 @@
+.header{
+    @include headerFooterStyle;
+
+    .navbar{
+        &__brand{
+            margin-left: 150px;
+
+            a{
+                text-decoration: none;
+                color: $colorSecondary;
+                font-size: 2em;
+                font-weight: bold;
+            }
+        }
+
+        &__nav{
+            float: right;
+            margin-top: -50px;
+            margin-right: 150px;
+            display: flex;
+
+            .nav__item{
+                list-style-type: none;
+
+                .nav__link{
+                    text-decoration: none;
+                    color: $colorTertiary;
+                    padding: 20px 30px;
+                    transition: color 250ms;
+
+                    &:hover{
+                        color: $colorSecondary;
+                    }
+                }
+
+                .nav__link--active{
+                    color: $colorSecondary;
+                }
+            }
+        }
+    }
+}

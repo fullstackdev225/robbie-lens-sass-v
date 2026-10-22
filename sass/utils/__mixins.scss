@@ -1,0 +1,5 @@
+@mixin headerFooterStyle{
+    border: 2px solid $colorPrimary;
+    background-color: $colorPrimary;
+    padding: 15px;
+}
