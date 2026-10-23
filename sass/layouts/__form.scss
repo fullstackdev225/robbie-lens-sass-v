@@ -1,0 +1,38 @@
+.form-section{
+    @include backSection;
+
+    h1{
+        text-align: center;
+        color: $colorPrimary;
+    }
+
+    .form{
+        .row{
+            @include flexboxLayout;
+
+            .col{
+                padding: $paddingGrid;
+
+                .form__label{
+                    color: $colorTertiary;
+                }
+
+                input{
+                    width: 500px;
+                }
+
+                textarea{
+                    width: 1020px;
+                }
+
+                .form__input{
+                    outline: none;
+
+                    &:focus{
+                        border: 2px solid $colorPrimary;
+                    }
+                }
+            }
+        }
+    }
+}

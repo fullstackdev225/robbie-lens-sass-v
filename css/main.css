@@ -5,6 +5,22 @@ body {
   font-family: "Roboto";
 }
 
+.btn {
+  border: 2px solid #0ed13b;
+  background-color: #0ed13b;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 350ms;
+}
+.btn:hover {
+  border-color: rgb(10.798206278, 161.201793722, 45.5067264574);
+  background-color: rgb(10.798206278, 161.201793722, 45.5067264574);
+}
+
 .header {
   border: 2px solid #0ed13b;
   background-color: #0ed13b;
@@ -39,6 +55,94 @@ body {
 }
 .header .navbar__nav .nav__item .nav__link--active {
   color: #0c290c;
+}
+
+.footer {
+  border: 2px solid #0ed13b;
+  background-color: #0ed13b;
+  padding: 15px;
+}
+.footer .navbar__brand {
+  margin-left: 150px;
+}
+.footer .navbar__brand a {
+  text-decoration: none;
+  color: #0c290c;
+  font-size: 2em;
+  font-weight: bold;
+}
+.footer .navbar__social {
+  float: right;
+  margin-top: -50px;
+  margin-right: 150px;
+}
+.footer .navbar__social a:hover {
+  opacity: 0.8;
+}
+
+.form-section {
+  border: 2px solid #0c290c;
+  background-color: #0c290c;
+  padding: 25px;
+}
+.form-section h1 {
+  text-align: center;
+  color: #0ed13b;
+}
+.form-section .form .row {
+  display: flex;
+  justify-content: center;
+}
+.form-section .form .row .col {
+  padding: 5px;
+}
+.form-section .form .row .col .form__label {
+  color: #fff;
+}
+.form-section .form .row .col input {
+  width: 500px;
+}
+.form-section .form .row .col textarea {
+  width: 1020px;
+}
+.form-section .form .row .col .form__input {
+  outline: none;
+}
+.form-section .form .row .col .form__input:focus {
+  border: 2px solid #0ed13b;
+}
+
+/* PROJECT SECTION */
+.section-project h1 {
+  text-align: center;
+}
+.section-project .row {
+  display: flex;
+  justify-content: center;
+}
+.section-project .row .col {
+  padding: 5px;
+}
+
+.hero-section {
+  border: 2px solid #0c290c;
+  background-color: #0c290c;
+  padding: 25px;
+}
+.hero-section .row {
+  display: flex;
+  justify-content: center;
+}
+.hero-section .row .col {
+  padding: 5px;
+}
+.hero-section .row .col h1 {
+  font-size: 3em;
+  color: #0ed13b;
+}
+.hero-section .row .col p {
+  color: #fff;
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=main.css.map */

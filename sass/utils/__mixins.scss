@@ -3,3 +3,38 @@
     background-color: $colorPrimary;
     padding: 15px;
 }
+
+@mixin backSection{
+    border: 2px solid $colorSecondary;
+    background-color: $colorSecondary;
+    padding: 25px;
+}
+
+@mixin flexboxLayout{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin buttonStyle($color){
+    border: 2px solid $color;
+    background-color: $color;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $colorTertiary;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+@mixin buttonStyleHover($color){
+    border-color: darken($color, 10);
+    background-color: darken($color, 10);
+}
+
+@mixin navBrandStyle{
+    text-decoration: none;
+    color: $colorSecondary;
+    font-size: 2em;
+    font-weight: bold;
+}

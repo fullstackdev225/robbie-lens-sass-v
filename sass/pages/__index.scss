@@ -1,0 +1,21 @@
+.hero-section{
+    @include backSection;
+
+    .row{
+        @include flexboxLayout;
+
+        .col{
+            padding: $paddingGrid;
+
+            h1{
+                font-size: $titleSize;
+                color: $colorPrimary;
+            }
+
+            p{
+                color: $colorTertiary;
+                font-size: 1.2em;
+            }
+        }
+    }
+}

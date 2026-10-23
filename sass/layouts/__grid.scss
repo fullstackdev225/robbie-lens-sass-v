@@ -1,0 +1,15 @@
+/* PROJECT SECTION */
+
+.section-project{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexboxLayout;
+
+        .col{
+            padding: $paddingGrid;
+        }
+    }
+}

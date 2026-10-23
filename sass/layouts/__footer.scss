@@ -1,0 +1,23 @@
+.footer{
+    @include headerFooterStyle;
+
+    .navbar{
+        &__brand{
+            margin-left: 150px;
+
+            a{
+                @include navBrandStyle;
+            }
+        }
+
+        &__social{
+            float: right;
+            margin-top: -50px;
+            margin-right: 150px;
+
+            a:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+}
