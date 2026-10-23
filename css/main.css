@@ -145,4 +145,44 @@ body {
   font-size: 1.2em;
 }
 
+.about-section {
+  border: 2px solid #0c290c;
+  background-color: #0c290c;
+  padding: 25px;
+}
+.about-section .about-title {
+  text-align: center;
+  font-size: 3em;
+  color: #0ed13b;
+}
+.about-section .about-text {
+  margin-left: 300px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.about-section h2 {
+  text-align: center;
+  color: #fff;
+}
+.about-section ul {
+  margin-left: 300px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.about-section .portfolio-link {
+  text-align: center;
+}
+.about-section table {
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.about-section table th, .about-section table td {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 15px;
+  font-size: 1.4em;
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */
